@@ -100,9 +100,9 @@ header button {
     .toggle {
         display: block;
         position: absolute;
-        top: -5;
+        top: 0;
         bottom: 0;
-        right: -15px;margin: auto;
+        right: 0;margin: auto;
         cursor: pointer;
         background: none;
 
