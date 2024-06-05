@@ -54,6 +54,16 @@ header button {
 
 }
 
+@media only screen and (max-width:1200px){
+    .account {
+
+        display: none;
+        
+    
+    }
+
+}
+
 @media only screen and (max-width:768px){
     header nav .flexSB {
         display: none;
@@ -61,6 +71,12 @@ header button {
     .account{
         display: none;
     }
+
+    .logo img {
+        
+        margin-top: 12px;
+    }
+    
     .navMenu-list{
         display: flex;
         flex-direction: column;
@@ -84,11 +100,12 @@ header button {
     .toggle {
         display: block;
         position: absolute;
-        top: 0;
+        top: -5;
         bottom: 0;
-        right: 20px;margin: auto;
+        right: -15px;margin: auto;
         cursor: pointer;
         background: none;
+
     }
 
     

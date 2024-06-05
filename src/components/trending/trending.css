@@ -12,24 +12,30 @@
         margin: 0;
         font-size: 50px;
     }
-    .trending {
-        position: relative;
-        height: 60vh !important;
+    
 
-    }
-    .trending .coverImage img{
-        width: 100vw;
-        height: 70vh !important;
-    }
-    .trending .content {
-        flex-direction: column;
-        padding: 50px;
-    }
-    .trending .row {
-        width: 100%;
-    }
-    .trending .playButton {
-        display: none;
+}
+
+@media only screen and (max-width:450px){
+    .trending h1 {
+        margin: 0;
+        font-size: 40px;
     }
 
+    
+
+  
+  
+}
+
+@media only screen and (max-width:400px){
+    .trending h1 {
+        margin: 0;
+        font-size: 35px;
+    }
+
+    
+
+  
+  
 }

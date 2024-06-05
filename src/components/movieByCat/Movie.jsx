@@ -39,7 +39,7 @@ const Movie = ({movies = [], title}) => {
         prevArrow: <SamplePrevArrow/>,
         responsive: [
         {
-            breakpoint: 800,
+            breakpoint: 900,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll:1,

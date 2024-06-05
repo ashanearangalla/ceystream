@@ -33,7 +33,7 @@ const HeroCard = ({
             </h4>
             
           </div>
-          <button className="primary-btn">
+          <button className="primary-btn-hero">
             <i className="fas fa-play"></i> PLAY NOW
           </button>
           </div>

@@ -32,7 +32,7 @@ ul {
   max-width: 90%;
   margin: auto;
 
-
+  
  
 }
 
@@ -49,7 +49,7 @@ button {
 }
 
 .row {
-
+  
   width: 50%;
   max-height: 750px;
 }
@@ -139,8 +139,9 @@ p {
 }
 
 .MovieBox .text {
-  padding: 70px 50px;
-
+  padding: 70px 40px;
+  max-width: 330px;
+  text-shadow:  0 0 0.5em rgba(0, 0, 0, 0.95);
 }
 
 .MovieBox h3 {
@@ -159,12 +160,50 @@ p {
   margin-right: 10px;
 }
 
+@media only screen and (max-width:1200px){
+  .MovieBox:hover {
+    
+    transform: none;
+    box-shadow: 0 0 0.73em rgba(0, 0, 0, 0.9);
+  
+  }
+
+}
+
 @media only screen and (max-width:768px){
   .MovieBox {
     width: 330px;
     height: 250px;
 
     
+  }
+
+
+}
+
+@media only screen and (max-width:600px){
+  .MovieBox {
+    width: 330px;
+    height: 250px;
+
+    
+  }
+
+  .MovieBox .text {
+    padding: 55px 30px;
+    max-width: 200px;
+    
+  
+  }
+  
+.row {
+  
+  width: 100%;
+
+}
+
+  .primary-btn {
+    display: none;
   }
 
 
